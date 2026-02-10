@@ -590,8 +590,8 @@ MonoBehaviour:
   configUrl: https://Papaya121.github.io/Platformer2D-RemoteConfig/config/weapons.csv
   targetWeaponId: pistol
   targetShootingController: {fileID: 189675517}
-  defaultDamage: 999
-  defaultCooldown: 5
+  defaultDamage: 20
+  defaultCooldown: 0.1
   logRawConfig: 0
 --- !u!1 &142760109
 GameObject:
