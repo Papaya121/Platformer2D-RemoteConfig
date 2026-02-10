@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Custom WebGL Template</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #unity-container {
+            width: 100%;
+            height: 100vh;
+        }
+
+        #custom-header {
+            padding: 10px;
+            background: #222;
+            font-size: 14px;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="custom-header">
+        CUSTOM WEBGL TEMPLATE
+    </div>
+
+    <div id="unity-container"></div>
+
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+    <script>
+        createUnityInstance(document.querySelector("#unity-container"), {
+            dataUrl: "%UNITY_WEBGL_DATA_URL%",
+            frameworkUrl: "%UNITY_WEBGL_FRAMEWORK_URL%",
+            codeUrl: "%UNITY_WEBGL_CODE_URL%",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "%COMPANY_NAME%",
+            productName: "%PRODUCT_NAME%",
+            productVersion: "%PRODUCT_VERSION%",
+        });
+    </script>
+
+</body>
+
+</html>

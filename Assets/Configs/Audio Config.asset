@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43d48a8e8ac34b6e99deb642ad1bca5, type: 3}
+  m_Name: Audio Config
+  m_EditorClassIdentifier: Assembly-CSharp::AudioConfig
+  audioClips:
+  - id: EnemyHit
+    clip: {fileID: 8300000, guid: f8a065ecd4ecd496697c6ece7963a6a3, type: 3}
+  - id: EnemyDie
+    clip: {fileID: 8300000, guid: 6538a5cb362784c16a4437a197a00815, type: 3}
+  - id: Win
+    clip: {fileID: 8300000, guid: 709b59a75a38546faa0252dbd13d7196, type: 3}
+  - id: GameOver
+    clip: {fileID: 8300000, guid: 198151d5b7a884d4289797b94274cab6, type: 3}
+  - id: Footstep
+    clip: {fileID: 8300000, guid: 76a2f1c05c10342ac9fd588a52132efd, type: 3}
+  - id: Shoot
+    clip: {fileID: 8300000, guid: bd6b285b4c8ec48969a491eab0e089b3, type: 3}
