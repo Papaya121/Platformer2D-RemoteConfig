@@ -1,4 +1,4 @@
-# Platformer2D-RemoteConfigLoader
+# Platformer2D-RemoteConfig
 
 ## Описание
 
